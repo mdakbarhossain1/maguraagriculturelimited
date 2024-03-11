@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.mapl-logo {
+  width: 220px;
+}
+
+
+.mapl-menu {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.mapl-menu a {
+  margin: 5px;
+  padding: 5px 10px;
+  transition: 0.3s ease-in;
+}
+
+.mapl-menu a:hover {
+  background-color: #098f29;
+  border-radius: 5px;
+  color: #fff;
+
+}
