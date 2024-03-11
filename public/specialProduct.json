@@ -1,0 +1,36 @@
+
+
+[
+    {
+      "name": "Product 1",
+      "price": 29.99,
+      "offerPrice": 24.99,
+      "rating": 4.5,
+      "image": "path/to/image1.jpg",
+      "type": "Electronics"
+    },
+    {
+      "name": "Product 2",
+      "price": 49.99,
+      "offerPrice": 39.99,
+      "rating": 3.8,
+      "image": "path/to/image2.jpg",
+      "type": "Clothing"
+    },
+    {
+      "name": "Product 3",
+      "price": 14.99,
+      "offerPrice": 11.99,
+      "rating": 4.2,
+      "image": "path/to/image3.jpg",
+      "type": "Home Decor"
+    },
+    {
+      "name": "Product 4",
+      "price": 99.99,
+      "offerPrice": 79.99,
+      "rating": 4.7,
+      "image": "path/to/image4.jpg",
+      "type": "Appliances"
+    }
+  ]

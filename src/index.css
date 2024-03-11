@@ -7,11 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yellowtail&display=swap');
 
 
-.mapl-green{
+.mapl-green {
   color: #098f29;
 }
 
-.mapl-blue{
+.mapl-blue {
   color: #274C5B;
 }
 
@@ -86,12 +86,17 @@
   color: #fff;
 }
 
-.text-content p{
+.text-content p {
   font-size: 1.6rem;
   font-family: "Yellowtail", cursive;
 }
 
-.text-content h3{
+.text-content h3 {
   font-size: 2rem;
+  font-weight: 700;
+}
+
+/* ------------ Special Offer -------------  */
+.title-h1 h1 {
   font-weight: 700;
 }
