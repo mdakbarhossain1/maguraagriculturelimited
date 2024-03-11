@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yellowtail&display=swap');
+
+
+.mapl-green{
+  color: #098f29;
+}
+
+.mapl-blue{
+  color: #274C5B;
+}
+
+
+/* ------------------- Navbar ------------------  */
 .mapl-logo {
   width: 220px;
 }
@@ -15,7 +28,7 @@
 }
 
 .mapl-menu a {
-  margin: 5px;
+  margin: 5px 10px;
   padding: 5px 10px;
   transition: 0.3s ease-in;
 }
@@ -24,5 +37,61 @@
   background-color: #098f29;
   border-radius: 5px;
   color: #fff;
+}
 
+/* ----------------- End Navbar ----------------- */
+
+/* ____________________________ Home Hero __------------ */
+
+.hero-bg {
+  background-image: url(./assets/image/programme.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  padding: 20px;
+}
+
+.hero-content p {
+  color: #FFDF7D;
+  font-size: 1.2rem;
+  font-family: "Yellowtail", cursive !important;
+  font-weight: 600;
+  margin: 0;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.hero-content button {
+  padding: 7px 15px;
+  background-color: #FFDF7D;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  border: none;
+  color: #274C5B;
+  font-weight: 700;
+}
+
+/* ------------ HealthMessage ----------------  */
+.text-content {
+  position: absolute;
+  top: 33%;
+  left: 13%;
+  color: #fff;
+}
+
+.text-content p{
+  font-size: 1.6rem;
+  font-family: "Yellowtail", cursive;
+}
+
+.text-content h3{
+  font-size: 2rem;
+  font-weight: 700;
 }

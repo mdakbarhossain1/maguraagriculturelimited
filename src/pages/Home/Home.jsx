@@ -1,8 +1,14 @@
+import HealthMessage from "../../components/HealthMessage/HealthMessage"
+import Slider from "../../components/Slider/Slider"
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+    return (
+        <div>
+            <Slider />
+            <HealthMessage />
+
+        </div>
+    )
 }
 
 export default Home
