@@ -22,7 +22,7 @@ const SpecialOffer = () => {
                 <div className="text-center title-h1"><h1>Special Offer</h1></div>
             </div>
             <div>
-                <Row className="g-5">
+                <Row className="g-3">
                     {
                         products.map((sproduct,index) =><ProductCard key={index} sproduct={sproduct}/>)
                     }

@@ -100,3 +100,49 @@
 .title-h1 h1 {
   font-weight: 700;
 }
+
+
+/* -------------- Product Card ---------------  */
+
+.product-card {
+  background-color: #fff;
+  padding: 10px;
+  border: 0.5px solid #274c5b4d;
+  border-radius: 15px;
+  transition: 0.25s all ease-in;
+}
+
+.product-card:hover {
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.34);
+}
+
+
+.product-type {
+  position: absolute;
+  background-color: #274C5B;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  color: #fff;
+  top: 15px;
+  left: 15px;
+  font-weight: 600;
+}
+
+.product-name{
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #274C5B;
+}
+
+.product-price del{
+  color: #ababab;
+  font-size: 0.8rem;
+}
+
+.product-price span{
+  font-weight: 700;
+  color: #274C5B;
+  margin-left: 5px;
+}
+
