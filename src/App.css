@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mapl-green {
+    color: #098f29;
+}
+
+.mapl-blue {
+    color: #274C5B;
+}
+
+
+/* ------------------- Navbar ------------------  */
+.mapl-logo {
+    width: 220px;
+}
+
+
+.mapl-menu {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.mapl-menu a {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    transition: 0.3s ease-in;
+}
+
+.mapl-menu a:hover {
+    background-color: #098f29;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* ----------------- End Navbar ----------------- */
+
+/* ____________________________ Home Hero __------------ */
+
+.hero-bg {
+    background-image: url(./assets/image/programme.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    padding: 20px;
+}
+
+.hero-content p {
+    color: #FFDF7D;
+    font-size: 1.2rem;
+    font-family: "Yellowtail", cursive;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero-content h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: "Noto Sans Tangsa", sans-serif;
+}
+
+.hero-content button {
+    padding: 7px 15px;
+    background-color: #FFDF7D;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border: none;
+    color: #274C5B;
+    font-weight: 700;
+}
+
+/* ------------ HealthMessage ----------------  */
+.text-content {
+    position: absolute;
+    top: 33%;
+    left: 13%;
+    color: #fff;
+}
+
+.text-content p {
+    font-size: 1.6rem;
+    font-family: "Yellowtail", cursive;
+}
+
+.text-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* ------------ Special Offer -------------  */
+.title-h1 h1 {
+    font-weight: 700;
+}
+
+
+/* -------------- Product Card ---------------  */
+
+.product-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 0.5px solid #274c5b4d;
+    border-radius: 15px;
+    transition: 0.25s all ease-in;
+}
+
+.product-card:hover {
+    box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.34);
+}
+
+
+.product-type {
+    position: absolute;
+    background-color: #274C5B;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    color: #fff;
+    top: 15px;
+    left: 15px;
+    font-weight: 600;
+}
+
+.product-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #274C5B;
+}
+
+.product-price del {
+    color: #ababab;
+    font-size: 0.8rem;
+}
+
+.product-price span {
+    font-weight: 700;
+    color: #274C5B;
+    margin-left: 5px;
+}
+
+
+/* ----------- Organic Offer ------------  */
+.organic-offer-bg {
+    background-color: #274C5B;
+}
+
+.organic-offer-title p {
+    color: #098f29;
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-family: "Yellowtail", cursive;
+}
+
+.organic-offer-title h3 {
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.organic-offer-button a {
+    text-decoration: none;
+    color: #274C5B;
+    background: #FFDF7D;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}

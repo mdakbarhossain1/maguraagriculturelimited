@@ -9,7 +9,7 @@ const Slider = () => {
           <Row>
             <Col md={6} lg={6}>
               <div className="hero-content">
-                <p><i>100% Natural Food</i></p>
+                <p><b>100% Natural Food</b></p>
                 <h1 className="py-2">Choose the best<br />
                   healthier way<br />
                   of life</h1>
