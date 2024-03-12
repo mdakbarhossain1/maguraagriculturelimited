@@ -5,7 +5,7 @@ import fruitsImage from "../../assets/image/fruits-image.png";
 const HealthMessage = () => {
     return (
         <Container className="my-3">
-            <Row className="gx-5">
+            <Row className="g-5">
                 <Col md={6} lg={6}>
                     <div className="position-relative m-2">
                         <Image src={milkBanner} className="img-fluid" rounded />

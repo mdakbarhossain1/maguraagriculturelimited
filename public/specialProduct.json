@@ -1,36 +1,35 @@
 
-
 [
     {
-      "name": "Product 1",
+      "name": "Calabrese Broccoli",
       "price": 29.99,
       "offerPrice": 24.99,
       "rating": 4.5,
-      "image": "path/to/image1.jpg",
-      "type": "Electronics"
+      "image": "https://res.cloudinary.com/djy2ovjwu/image/upload/v1710158421/ec3pp4hryqx70yakzkhq.png",
+      "type": "Vegetable"
     },
     {
-      "name": "Product 2",
+      "name": "Fresh Banana Fruites",
       "price": 49.99,
       "offerPrice": 39.99,
       "rating": 3.8,
-      "image": "path/to/image2.jpg",
-      "type": "Clothing"
+      "image": "https://res.cloudinary.com/djy2ovjwu/image/upload/v1710159425/pf68fm63ekhk0m5cd4nn.png",
+      "type": "Vegetable"
     },
     {
-      "name": "Product 3",
+      "name": "White Nuts",
       "price": 14.99,
       "offerPrice": 11.99,
       "rating": 4.2,
-      "image": "path/to/image3.jpg",
-      "type": "Home Decor"
+      "image": "https://res.cloudinary.com/djy2ovjwu/image/upload/v1710158421/m6xzzc3qjr2ywxsckj8a.png",
+      "type": "Vegetable"
     },
     {
-      "name": "Product 4",
+      "name": "Vegan Red Tomato",
       "price": 99.99,
       "offerPrice": 79.99,
       "rating": 4.7,
-      "image": "path/to/image4.jpg",
-      "type": "Appliances"
+      "image": "https://res.cloudinary.com/djy2ovjwu/image/upload/v1710158421/nmy7fbzgpiyxi5eq4xut.png",
+      "type": "Vegetable"
     }
   ]

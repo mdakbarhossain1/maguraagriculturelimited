@@ -14,7 +14,7 @@ const SpecialOffer = () => {
         .then(data => setProducts(data))
 }, [])
 
-    console.log(products)
+    // console.log(products)
 
     return (
         <Container>
@@ -22,9 +22,9 @@ const SpecialOffer = () => {
                 <div className="text-center title-h1"><h1>Special Offer</h1></div>
             </div>
             <div>
-                <Row>
+                <Row className="g-5">
                     {
-                        products.map((sproduct,index) =><ProductCard key={index}/>)
+                        products.map((sproduct,index) =><ProductCard key={index} sproduct={sproduct}/>)
                     }
                 </Row>
             </div>
